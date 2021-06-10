@@ -29,8 +29,8 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 23px;
-    margin-right: 35px;
+    margin-top: 18px;
+    margin-right: 2.188rem;
 }
 
 .banner {
@@ -125,6 +125,31 @@ a {
 
 /* Estilizando Login */
 
+.style-line {
+    margin-top: 3px;
+}
+
+.style-line-or {
+    display: flex;
+    align-items: center;
+}
+
+.or {
+    margin: 0px 17px;
+    margin-top: 5px;
+    font-size: 13px;
+}
+
+.line {
+    width: 50%;
+    display: flex;
+}
+
+.line {
+    height: 1px;
+    background-color: rgba(0,0,0,0.15);
+}
+
 .profile.profile-login {
     height: 380px;
     margin-top: 40px;
@@ -174,9 +199,14 @@ a {
     .banner {
         display: none;
     }
+    .wrapper {
+        margin-right: 0;
+    }
 }
 
 @media (max-width: 451px) { 
+
+
     .profile-content {
         width: 100%;
         align-items: stretch;
