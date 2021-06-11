@@ -1,0 +1,75 @@
+
+.profile-content {
+    margin-top: 100px;
+}
+
+.comment {
+    width: 268px;
+    text-align: center;
+    padding: 0px 20px;
+    font-size: 17px;
+    color: rgb(142, 142, 142);
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.login {
+    margin-top: 0px;
+}
+
+.login-facebook-img-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.login-facebook-text {
+    margin-top: 3px;
+    color: #fff;
+}
+
+.login-facebook-img {
+    color: red;
+}
+
+.profile-button-name.login-button {
+    margin-top: 17px;
+    margin-bottom: 0;
+}
+
+.style-line-or {
+    margin: 17px 0;
+
+}
+
+.or {
+    margin-top: 0px;
+}
+
+.profile.profile-login {
+    height: auto;
+}
+
+.comment.terms {
+    margin-top: 17px;
+    margin-bottom: 17px;
+    font-size: 13px;
+    font-weight: 400;
+    padding: 0 0;
+    
+}
+
+.contract-terms {
+    width: 100%;
+    font-weight: bold;
+    color: rgb(142, 142, 142);
+}
+
+.account {
+    background-color: rgb(255, 255, 255);
+}
+.sign-up-instagram .blue-color {
+    font-weight: normal;
+}
