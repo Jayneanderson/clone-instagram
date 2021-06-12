@@ -65,6 +65,11 @@ a {
 
 .soon-instagram {
     width: 175px;
+    height: 51px;
+    background-image: url('/img/all-icon.png');
+    background-position: 0 -130px;
+    overflow: hidden;
+    text-indent: 105%;
 }
 
 .photo-profile { 
