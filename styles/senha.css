@@ -79,7 +79,7 @@
 
 .placeholder {
     bottom: 0;
-    top: 9px;
+    top: 0.563rem;
     font-size: 14px;
     padding-top: 5px;
     transition: 0.1s;
@@ -97,11 +97,9 @@
 
 .login-input {
     height: 40px;
-    color: transparent;
 }
 .typing-input {
     padding-top: 20px;
-    color: #000000;
 }
 
 .login-facebook {
