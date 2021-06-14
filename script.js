@@ -20,3 +20,9 @@ function image4() {
 }
 
 image1()
+
+const Letter = {
+    detect() {
+        document.querySelector
+    }
+}

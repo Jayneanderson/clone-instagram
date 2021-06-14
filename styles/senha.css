@@ -68,16 +68,40 @@
     color: rgb(142, 142, 142);
 }
 
+.login-label {
+    display: flex;
+    height: 40px;
+}
+
 .login {
     margin-top: 0;
 }
 
 .placeholder {
+    bottom: 0;
+    top: 9px;
     font-size: 14px;
+    padding-top: 5px;
+    transition: 0.1s;
+}
+
+.typing-span {
+    /*  
+    Ao digitar, adicione a classe no html que realiza as modificações
+    no span e no input
+    */
+    top: 0px;
+    font-size: 12px;
+    transition: 0.1s;
 }
 
 .login-input {
     height: 40px;
+    color: transparent;
+}
+.typing-input {
+    padding-top: 20px;
+    color: #000000;
 }
 
 .login-facebook {
