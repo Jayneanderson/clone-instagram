@@ -289,6 +289,51 @@ a {
 /* ----------Estilizando a tela de CADASTRO------------ */
 
 
+/* ----------Estilizando o FOOTER------------ */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 52px;
+    margin-top: 43px;
+}
+
+.footer-list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+
+.footer-list-element {
+    margin: 0 8px;
+}
+
+.footer-list-element-link {
+    color: rgba(38, 38, 38, 0.5);
+    font-size: 13px;
+}
+
+.footer-wrapper {
+    display: flex;
+    margin: 14px 10px;
+}
+
+.selection {
+    border-color: rgba(250, 250, 250, 1);
+    cursor: pointer;
+    outline: none;
+}
+
+option {
+    font-size: 13px;
+    color: black;
+}
+
+.copyrigth {
+    margin-left: 15px;
+}
 
 
 /* ----------Reponsividade------------ */
