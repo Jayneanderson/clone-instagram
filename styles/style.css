@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: rgb(250,250,250);
+    background-color: #fafafa;
 }
 
 a {
@@ -50,13 +50,13 @@ a {
     margin-left: -15px;
 }
 
-.profile{
+.profile {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 22px;
+    background-color: rgb(254, 254, 254);
     padding-bottom: 22px;
-    
 }
 
 .profile img {
@@ -70,6 +70,7 @@ a {
     background-position: 0 -130px;
     overflow: hidden;
     text-indent: 105%;
+    margin-bottom: 27px;
 }
 
 .photo-profile { 
@@ -81,7 +82,7 @@ a {
 .profile-button-name {
    margin: 20px 0;
    padding: 7px;
-   background-color: #2196F3;
+   background-color: rgba(33, 150, 243, 1);
    color: #fff;
    border: none;
    border-radius: 5px;
@@ -103,6 +104,14 @@ a {
     margin-top: 10px;
     margin-bottom: 20px;
     background-color: rgb(255, 255, 255)
+}
+
+.exchange-sign-up {
+    display: flex;
+}
+
+.exchange-sign-up-or {
+    margin: 0 3px;
 }
 
 .blue-color {
@@ -200,6 +209,7 @@ a {
     margin-top: -3px;
     padding-top: 30px;
     background-color: rgb(255, 255, 255);
+    padding-bottom: 0;
 }
 
 .aside-get.info-download {
@@ -227,7 +237,7 @@ a {
 
 .login {
     width: 268px;
-    margin-top: 32px;
+    margin-top: 11px;
 }
 
 .login-label {
@@ -271,6 +281,11 @@ a {
     margin: 10px 0;
 }
 
+.profile-button-name.login-button:disabled {
+    background-color: rgba(33, 150, 243, 0.4);
+    cursor: context-menu;
+}
+
 /* ----------Estilizando a tela de CADASTRO------------ */
 
 
@@ -293,10 +308,19 @@ a {
     .profile-content {
         width: 100%;
         align-items: stretch;
+        margin-left: 0;
     }
 
     .profile {
         padding-top: 0px;
+    }
+
+    .profile.profile-login {
+        background-color: rgb(250, 250, 250);
+    }
+
+    .account {
+        background-color: rgb(250, 250, 250);
     }
 
     .border {
