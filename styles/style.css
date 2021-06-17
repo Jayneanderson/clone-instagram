@@ -25,7 +25,8 @@ a {
 
 .wrapper {
     width: 935px;
-    height: 650px;
+    /* height: 650px; */
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
