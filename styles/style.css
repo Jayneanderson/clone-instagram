@@ -280,6 +280,7 @@ a {
     border-radius: 3px; 
     font-weight: bold;
     margin: 10px 0;
+    background-color: rgba(33, 150, 243, 1);
 }
 
 .profile-button-name.login-button:disabled {
