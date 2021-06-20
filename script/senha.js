@@ -24,14 +24,11 @@ getElement.forEach(item => item.addEventListener('keyup', function () {
 */
 
 const input = document.querySelector('#email')
-const inputSenha = document.querySelector('#senha')
 
 function validarCampo() { 
     const inputValue = input.value
-    const senhaValue = document.querySelector('#senha')
 
-    console.log(senhaValue)
-    if(inputValue.length > 0 && senhaValue.value.length > 7) {
+    if(inputValue.length > 0) {
 
         const button = document.querySelector('.login-button')
         button.removeAttribute('disabled')
@@ -45,4 +42,3 @@ function validarCampo() {
 
 input.addEventListener('keyup', validarCampo)
 
-inputSenha.addEventListener('keyup', validarCampo);
